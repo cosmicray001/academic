@@ -1,0 +1,69 @@
+#ida0201{
+    border-style: solid;
+    border-radius: 10%;
+    border-color: black;
+    background-color: white;
+    text-align: center;
+}
+#ida0201 h2{
+    text-align: center;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#ida0201 p{
+    text-align: center;
+    margin-left: 25%;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#ida0201btn01{
+    height: 35px;
+    width: 80px;
+    margin: 5px;
+    border: solid;
+    border-color: yellow;
+    background-color: black;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#ida0201btn02{
+    height: 35px;
+    width: 80px;
+    margin: 5px;
+    border: solid;
+    border-color: black;
+    background-color: green;
+    color: orange;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#ida0201btn03{
+    height: 35px;
+    width: 80px;
+    margin: 5px;
+    border: solid;
+    border-color: blue;
+    background-color: gray;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#ida0201btn04{
+    height: 35px;
+    width: 80px;
+    margin: 5px;
+    border: solid;
+    border-color: red;
+    background-color: blue;
+    color: pink;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btn_arae{
+    margin-bottom: 10px;
+}
+.btn_arae button {
+    background-color: #4CAF50; /* Green */
+    border-style: solid;
+    border: black;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}

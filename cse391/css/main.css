@@ -1,0 +1,236 @@
+#navbar {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    transition: top 0.3s;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+  }
+  
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .cl002{
+      background-image: url(img/cover002.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-top: 70px;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+  }
+  .cl002 h1{
+      
+    text-align: center;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-shadow: black;
+      font-size: xx-large;
+  }
+  .cl002 h2{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: black;
+    font-size: xx-large;
+  }
+  .cl002 img{
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cl003{
+      background-image: url(img/bracu.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-top: 70px;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding-top: 0%;
+      padding-left: 0%;
+      padding-right: 0%;
+      padding-bottom: 0%;
+  }
+  .cl003 h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  .cl004{
+    background-image: url(img/project001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 70px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+}
+.cl004 h1{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.cl004 img{
+  height: 300px;
+  width: 300px;
+  position: static;
+  z-index: 1;
+}
+.cl005{
+  background-image: url(img/gray.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 70px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 0%;
+  padding-left: 0%;
+  padding-right: 0%;
+  padding-bottom: 0%;
+}
+.cl005 h1{
+background-color: black;
+color: white;
+text-align: center;
+}
+.cl005 img{
+height: 300px;
+width: 300px;
+position: relative;
+}
+.cl005 h4{
+  text-align: center;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-left: 45%;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  margin-left: 45%;
+}
+.dp{
+  width: 100px;
+  height: 100px;
+  margin-left: 40%;
+}
+.cp{
+  background-image: url(img/cp001.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 70px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.cp h1{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.cp p{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+.cp table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.cp td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.cp tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.cp tr:nth-child(odd) {
+  background-color: gray;
+}
+.linkcl{
+  background-color: #AED6F1;
+  background-size: cover;
+  padding-top: 70px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.linkcl h1{
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+.clme{
+  background-image: url(img/project001.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 70px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 0%;
+  padding-left: 0%;
+  padding-right: 0%;
+  padding-bottom: 0%;
+}
+.clme h1{
+background-color: black;
+color: white;
+text-align: center;
+}
+.clme img {
+  position: static;
+  z-index: 1;
+  width: 250px;
+  height: 250px;
+}

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "58514534189",
+    "firebase_url": "https://enoticeboard-4db3d.firebaseio.com",
+    "project_id": "enoticeboard-4db3d",
+    "storage_bucket": "enoticeboard-4db3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58514534189:android:8bb56f02cc5a5761",
+        "android_client_info": {
+          "package_name": "com.example.enoticeboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58514534189-415hb7g9scfq2ob3qnd2km1jns8e1ukc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.enoticeboard",
+            "certificate_hash": "fbca9d3d6735f421cf4795c83f850468f1e5f45f"
+          }
+        },
+        {
+          "client_id": "58514534189-4bqsqebbo0nvovm7503meub1u7hcvm2m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9tw6GYSbAe40ZUcB8aorutXR1mshT-TM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58514534189-4bqsqebbo0nvovm7503meub1u7hcvm2m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,4 @@
+Methods: add(int a, int b),  return type: int
+Methods: subtract(int a, int b),  return type: int
+Methods: add(),  return type: dobule
+Methods: main(String [] args),  return type: viod

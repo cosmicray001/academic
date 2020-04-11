@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <script src="source.js"></script>
+    <title>Document</title>
+</head>
+<body onload="quote_box('ida0201h201', 'ida0201p01')">
+    <div id="navbar">
+        <a href="../index.html">Home</a>
+    </div>
+    <div>
+        <div id="ida0201" style="margin-top: 100px;">
+            <h2 id="ida0201h201"></h2>
+            <p id="ida0201p01"></p>
+        </div>
+        <div style="margin: 10px; align-items: center;">
+            <div style="margin-left: 45%;">
+                <button id="ida0201btn01" onclick="fnc01('ida0201h201', 'ida0201p01', 'ida0201')">Pick this</button>
+                <button id="ida0201btn02" onclick="fnc02('ida0201h201', 'ida0201p01', 'ida0201')">Pick this</button>
+            </div>
+            <div style="margin-left: 45%;margin-top: 5px;">
+                <button id="ida0201btn03" onclick="fnc03('ida0201h201', 'ida0201p01', 'ida0201')">Pick this</button>
+                <button id="ida0201btn04" onclick="fnc04('ida0201h201', 'ida0201p01', 'ida0201')">Pick this</button>
+            </div>
+        </div>
+    </div>
+    <div style="margin: 5px;">
+        <fieldset>
+            <p style="float: left; margin-right: 5px;">Convert</p>
+            <input type="number" min = "0" id="convert_box" style="margin-top: 15px; float: left; margin-right: 5px;">
+            <select name="val" id="convert" style="margin-top: 15px;margin-right: 5px; float: left;">
+                <option value="lbkg" selected>lb to kg</option>
+                <option value="kglb">kg to lb</option>
+            </select>
+            <input type="button" value="go" onclick="fnc_con('convert_box', 'convert', 'show001')" style="margin-top: 15px;margin-right: 5px; float: left;">
+            <p id="show001"></p>
+        </fieldset>
+    </div>
+    <div style="margin: 5px;">
+        <fieldset>
+            <p>Input Series of Number</p>
+            <input type="text" id="idseries" onkeyup="fnc_amms('idseries', 'idmx', 'idmn', 'idsum', 'idavg', 'idrev')" style=" margin-right: 5px;">
+            
+            <p id="idmx"></p>
+            <p id="idmn"></p>
+            <p id="idsum"></p>
+            <p id="idavg"></p>
+            <p id="idrev"></p>
+        </fieldset>
+    </div>
+    <div style="background-color: gray; margin: 95px;">
+        <h1 style="margin-left: 10px; margin-top: 5px;">Magic!</h1>
+        <fieldset style="margin-right: auto; margin-left: auto;">
+            <textarea name="txtbox" id="idtxtarea" cols="100" rows="10"></textarea>
+        </fieldset>
+        <div class="btn_arae">
+            <button onclick="fnc_clr('idtxtarea')">Clear It</button>
+            <button onclick="fnc_case('idtxtarea')">Capitalize</button>
+            <button onclick="fnc_sort('idtxtarea')">Sort</button>
+            <button onclick="fnc_rev('idtxtarea')">Reverse</button>
+            <button onclick="fnc_bnk('idtxtarea')">Strip Blank</button>
+            <button onclick="fnc_add('idtxtarea')">Add Number</button>
+            <button onclick="fnc_ran('idtxtarea')">Shuffle</button>
+        </div>
+        <p id="pck"></p>
+    </div>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+          } else {
+            document.getElementById("navbar").style.top = "-50px";
+          }
+          prevScrollpos = currentScrollPos;
+        }
+    </script>
+</body>
+</html>

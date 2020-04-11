@@ -1,0 +1,104 @@
+body{
+    font-family: 'Kanit', sans-serif;
+    letter-spacing:0.5em;
+    font-size:2em;
+    background:#69797E;
+  }
+  .center{
+    margin:1% auto;
+    width:600px;
+    text-align:center;
+    position:relative;
+  }
+  
+  .buton{
+    color:#333;
+    background:#fff;
+    font-size:1.1em;
+    text-decoration:none;
+    padding:1em;
+    position:relative;
+    display:block;
+    cursor:pointer;
+    -webkit-transition:500ms all ease-ot;
+    -moz-transition:500ms all ease-out;
+    -o-transition:500ms all ease-out ;
+    transition:500ms ease-out;
+  }
+  
+  .hover::after,.hover::before,
+  .text::before,.text::after{
+    content:'';
+    box-sizing:border-box;
+    position:absolute;
+    background:#FF4343;
+    -webkit-transition:500ms all eases ;
+    -moz-transition:500ms all ease-out ;
+    -o-transition:500ms all ease-out ;
+    transition: 500ms all ease-out;
+  }
+  
+  .hover::after{
+    right:0;
+    bottom:0;
+    width:0;
+    height:3px;
+  }
+  
+  .hover::before{
+    right:0;
+    bottom:0;
+    height:0;
+    width:3px;
+  }
+  
+  .text::after{
+    top:0;
+    left:0;
+    width:0px;
+    height:3px;
+  }
+  
+  .text::before{
+    top:0;
+    left:0;
+    height:0px;
+    width:3px;
+  }
+  
+  .buton:hover .hover::after{
+    width:100%;
+    height:3px;
+  }
+  
+  .buton:hover .text::after{
+    width:100%;
+    height:3px;
+  }
+  
+  .buton:hover .text::before{
+    height:100%;
+    width:3px;
+  }
+  
+  .buton:hover .hover::before{
+    height:100%;
+    width:3px;
+  }
+  
+  .buton:hover .text,
+  .buton:hover .fa-home{
+    color:#FF4343;
+  }
+  
+  .buton:hover .fa-home{
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 300ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-out;
+  }
+  
+  @-webkit-keyframes spin {
+      from { -webkit-transform: rotate(0deg); }
+      to { -webkit-transform: rotate(360deg); }	
+  }
