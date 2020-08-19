@@ -1,0 +1,25 @@
+class MultipleInhertanceUsingAnInterfaceExtendingMultipleInterfaces implements C
+{
+  void method1()
+  {
+    System.out.println("Hi, this is metohd1");
+  }
+  
+  void method2()
+  {
+    System.out.println("Hi, this is metohd2");
+  }
+  
+  void method3()
+  {
+    System.out.println("Hi, this is metohd3");
+  }
+  
+  public static void main (String []args)
+  {
+    C obj = new MultipleInhertanceUsingAnInterfaceExtendingMultipleInterfaces();
+    obj.method1();
+    obj.method2();
+    obj.method3();
+  }
+}

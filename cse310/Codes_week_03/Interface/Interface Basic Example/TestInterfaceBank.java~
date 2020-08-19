@@ -1,0 +1,5 @@
+class TestInterfaceBank{  
+public static void main(String[] args){  
+BankInterface b=new SBI();  
+System.out.println("ROI: "+b.rateOfInterest());  
+}}  

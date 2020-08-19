@@ -1,0 +1,10 @@
+interface BankInterface
+{  
+  float rateOfInterest();  
+}  
+class SBIBank implements BankInterface{  
+public float rateOfInterest(){return 9.15f;}  
+}  
+class PNBBank implements BankInterface{  
+public float rateOfInterest(){return 9.7f;}  
+}  
