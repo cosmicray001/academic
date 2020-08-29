@@ -1,2 +1,2 @@
 # OS
-![image](https://github.com/cosmicray001/cosmicray001/blob/master/assets/gif003.gif)
+![image](https://github.com/cosmicray001/academic/blob/master/cse321/src/OS.jpg)
