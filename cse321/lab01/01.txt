@@ -1,0 +1,5 @@
+rm -r *
+ls
+find -name "*.txt"
+grep -r "given_string"
+chmod ugo=rx filename
